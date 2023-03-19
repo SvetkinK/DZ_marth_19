@@ -2,13 +2,13 @@
 
 void Palindrom(int a, int b)
 {
-a = new Random().Next(10000,100000);
-//a = 57875;
-//Console.WriteLine(a);
-b = 10000*(a - a/10 * 10) + 1000*(a/10 - a/100 * 10) + 100*(a/100 - a/1000 * 10) + 10*(a/1000 - a/10000 * 10) + (a/10000 - a/100000*10); 
-//Console.WriteLine(b);
-if(a==b) Console.WriteLine($"{a} -> да");
-else Console.WriteLine($"{a} -> нет");
+  a = new Random().Next(10000, 100000);
+  //a = 57875;
+  Console.WriteLine(a);
+  b = 10000 * (a - a / 10 * 10) + 1000 * (a / 10 - a / 100 * 10) + 100 * (a / 100 - a / 1000 * 10) + 10 * (a / 1000 - a / 10000 * 10) + (a / 10000 - a / 100000 * 10);
+
+  if (a == b) Console.WriteLine($"{a} -> да");
+  else Console.WriteLine($"{a} -> нет");
 }
 int a = 0;
 int b = 0;
