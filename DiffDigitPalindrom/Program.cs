@@ -41,4 +41,4 @@ i++;
 if(N==rev) Console.WriteLine($"{N} -> палиндром");
 else Console.WriteLine($"{N} -> не палиндром");
 
-//Console.WriteLine($"реверсное = {rev}");
+
